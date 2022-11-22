@@ -11,3 +11,4 @@
 <li>All the CSS be placed in the CSS folder.</li>
 </ol>
 
+<strong> Note: </strong> All notes are not uploaded in github due to it's storage restriction. 

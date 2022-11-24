@@ -10,6 +10,10 @@
     --COLOR5: #FFFFFF;
     --HEADING_FONT:'Montserrat', sans-serif;
     --BODY_FONT:'Source Sans Pro', sans-serif;
+    --FONT_SIZE_X:1em;
+    --FONT_SIZE_XL:2em;
+    --FONT_SIZE_XXL:3em;
+    --PADDING:0.3em;
 }
 
 /* Overriding the defaults */
@@ -20,4 +24,63 @@
 }
 body{
     font-family: var(--BODY_FONT);
+}
+h1, h2, h3,h4, h5, h6{
+    font-family: var(--HEADING_FONT);
+}
+
+/* Change the text color to theme */
+/* For single properties  */
+.theme_color{
+    color:var(--COLOR2);
+    text-decoration: underline;
+}
+
+/* Changing the display of main */
+main{
+    margin-top:5em;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-evenly;
+    justify-items: center;
+    height:80vh;
+    background-image: url(../Resources/images/background3.jpg);
+    background-repeat: no-repeat;
+    
+   
+}
+
+/* For section's h1 */
+main section h1{
+    font-size: var(--FONT_SIZE_XXL);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* CSS for the aside */
+aside{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3em;
+}
+
+figure img{
+    width: 70%;
+    margin-left:10em;
+}
+
+/* Changing anchor tag to block level` */
+aside a{
+    display:block;
+    grid-template-columns: 1fr 1fr;
+    font-size: var(--FONT_SIZE_XL);
+    text-decoration: none;
+    margin:0.4em;
+    color:black;
+    border-radius: 0.5em;
+    padding:var(--PADDING);
+    padding-left: 0.5em;
+    background-color: var(--COLOR3);
+    /* border:2px double var(--COLOR2); */
 }

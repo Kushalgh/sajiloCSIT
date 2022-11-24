@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap');
+
+/* Variables for the whole css */
+:root{
+    /* COLORS PALATTE*/
+    --COLOR1:#022B3A;
+    --COLOR2:#1F7A8C;
+    --COLOR3:#BFDBF7;
+    --COLOR4:#E1E5F2;
+    --COLOR5: #FFFFFF;
+    --HEADING_FONT:'Montserrat', sans-serif;
+    --BODY_FONT:'Source Sans Pro', sans-serif;
+}
+
+/* Overriding the defaults */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--BODY_FONT);
+}

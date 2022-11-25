@@ -9,6 +9,7 @@ header{
     display: flex;
     font-size: 1.2em;
     justify-content: space-between;
+    align-items: center;
     margin:0.5em 0.7em;
 }
 
@@ -37,10 +38,9 @@ header h3, .footer_details h3{
 }
 .header_search_bar input{
     border-radius: 0.9em;
-    border:2px solid #1F7A8C;
+    border:1px solid #1F7A8C;
     height:2em;
-  
-}
+}   
 .header_search_bar button{
     background-color: hsl(190, 64%, 34%);
     border-radius: 1em;
@@ -48,7 +48,6 @@ header h3, .footer_details h3{
     color:#fff;
     font-family: inherit;
     font-size: 0.8em;
-    font-weight:570;
     padding: 0.3em 1em;
     
 }
@@ -124,17 +123,19 @@ footer h3{
     padding: 0.3em 0; 
 }
 .contact_forum button{
-    background-color: hsl(190, 64%, 34%, 0.6);
+    background-color: hsl(190, 64%, 34%);
     border-radius: 1em;
     border:none;
+    color:white;
     font-family: inherit;
+    font-size: 1em;
     font-weight:570;
     margin-top:0.5em;
-    padding: 0.3em 0; 
+    padding: 0.5em 0; 
     width:50%;
 }
 .contact_forum button:hover{
-    background-color: hsl(190, 64%, 34%);
+    background-color: hsl(190, 64%, 34%,0.8);
     color: white;
 }
 .contact_forum input{

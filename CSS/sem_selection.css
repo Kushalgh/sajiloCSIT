@@ -8,8 +8,13 @@
     --COLOR3:#BFDBF7;
     --COLOR4:#E1E5F2;
     --COLOR5: #FFFFFF;
+    --HOVER_COLOR:hsl(210, 78%, 86%,0.5);
     --HEADING_FONT:'Montserrat', sans-serif;
     --BODY_FONT:'Source Sans Pro', sans-serif;
+    --FONT_SIZE_X:1em;
+    --FONT_SIZE_XL:2em;
+    --FONT_SIZE_XXL:3em;
+    --PADDING:0.3em;
 }
 
 /* Overriding the defaults */
@@ -21,3 +26,90 @@
 body{
     font-family: var(--BODY_FONT);
 }
+h1, h2, h3,h4, h5, h6{
+    font-family: var(--HEADING_FONT);
+}
+
+/* Change the text color to theme */
+/* For single properties  */
+.theme_color{
+    color:var(--COLOR2);
+}
+
+/* Changing the display of main */
+main{
+    margin-top:5em;
+    display:grid;
+    gap:3em;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    height:80vh;
+    background-image: url(../Resources/images/background3.jpg);
+    background-repeat: no-repeat;
+   
+}
+
+/* For section's h1 */
+main section h1{
+    font-size: var(--FONT_SIZE_XXL);
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* CSS for the aside */
+aside{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3em;
+    margin:0 20%;
+}
+/* The svg image displayed on left */
+.body_image img{
+    width: 100%;
+    margin-left:10em;
+    margin-top:25%;
+}
+
+/* The Right Side Menu */
+/* Aligning sll the fiures to cemter */
+aside figure{
+    text-align: center;
+    margin:1em 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid var(--COLOR2);
+    padding:0.4em 0;
+    border-radius: 10px;
+}
+aside figure:hover{
+    background-color:var(--HOVER_COLOR);
+}
+/* Changing the size of the logo in the butotn */
+aside img{
+    width: 15%;
+}
+
+/* Changing the styles of the anchor tag */
+aside a{
+    text-decoration: none;
+    color: black;
+}
+aside a:hover{
+    color:var(--COLOR2);
+}
+
+/* Changing anchor tag to block level` */
+/* aside a{
+    display:block;
+    grid-template-columns: 1fr 1fr;
+    font-size: var(--FONT_SIZE_XL);
+    text-decoration: none;
+    margin:0.4em;
+    color:black;
+    border-radius: 0.5em;
+    padding:var(--PADDING);
+    padding-left: 0.5em;
+    background-color: var(--COLOR3);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+    /* border:2px double var(--COLOR2); */
+} */

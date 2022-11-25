@@ -76,7 +76,7 @@ aside{
 aside figure{
     text-align: center;
     margin:1em 0;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
     border: 2px solid var(--COLOR2);
     padding:0.4em 0;
     border-radius: 10px;
@@ -112,4 +112,3 @@ aside a:hover{
     background-color: var(--COLOR3);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
     /* border:2px double var(--COLOR2); */
-} */

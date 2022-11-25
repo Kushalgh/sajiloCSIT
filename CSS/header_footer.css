@@ -7,7 +7,7 @@
 /* The headers on flex */
 header{
     display: flex;
-    font-size: 0.9em;
+    font-size: 1.2em;
     justify-content: space-between;
     margin:0.5em 0.7em;
 }
@@ -36,26 +36,32 @@ header h3, .footer_details h3{
     font-family: 'Special Elite', cursive;
 }
 .header_search_bar input{
-    border-radius: 0.5em;
+    border-radius: 0.9em;
     border:2px solid #1F7A8C;
+    height:2em;
+  
 }
 .header_search_bar button{
-    background-color: hsl(190, 64%, 34%, 0.6);
+    background-color: hsl(190, 64%, 34%);
     border-radius: 1em;
     border:none;
+    color:#fff;
     font-family: inherit;
+    font-size: 0.8em;
     font-weight:570;
     padding: 0.3em 1em;
+    
 }
 .header_search_bar button:hover{
-    background-color: hsl(190, 64%, 34%);
-    color: white;
+    background-color: hsl(190, 64%, 34%,0.8);
+    color:black;
+  
 }
 
 /* CSS for the input field placeholder. */
 ::placeholder{
     font-family: inherit;
-    font-size: 0.8em;
+    font-size: 1em;
     opacity: 0.4;
     padding:0.2em 1em;
 }

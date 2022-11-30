@@ -6,11 +6,12 @@
 
 /* The headers on flex */
 header{
+    background-color: hsl(210, 78%, 86%,0.3);
     display: flex;
     font-size: 1.2em;
     justify-content: space-between;
     align-items: center;
-    margin:0.5em 0.7em;
+    padding: 0.5em 1em;
 }
 
 header ol{
@@ -70,7 +71,7 @@ footer{
     background-color: hsl(210, 78%, 86%,0.3);
     display: grid;
     gap:2em;
-    grid-template-columns:2fr 1fr 1fr 1.3fr;
+    grid-template-columns: 2fr 1fr 1fr 1.3fr;
     margin-bottom: 0;
     padding:0.5em 0.2em;
     place-content: center;
@@ -153,7 +154,7 @@ footer h3{
 
 /* Copyright Button CSS */
 .copyright{
-    background-color: hsl(210, 78%, 86%,0.5);
+    background-color: hsl(210, 78%, 86%);
     display: block;
     font-size: 0.9em;
     font-weight: bold;

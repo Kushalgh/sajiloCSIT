@@ -58,6 +58,10 @@ header h3, .footer_details h3{
   
 }
 
+.logo_image{
+    display: none;
+}
+
 /* CSS for the input field placeholder. */
 ::placeholder{
     font-family: inherit;
@@ -161,5 +165,52 @@ footer h3{
     margin:0em 0;
     padding:0.5em;
     text-align: center;
+}
+
+
+
+
+
+/* FOr mobile devices  */
+@media screen and (max-width: 600px) {
+
+    /* Header */
+    header nav, .header_search_bar, header h3{
+        display: none;
+    } 
+    header{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
+   
+    .logo_image{
+        display: block;
+        color:red;
+        
+    }
+    .logo_image img{
+        width: 40%;
+    }
+
+
+    
+
+    /* Footer */
+    footer{
+        grid-template-columns: 1fr;
+        padding: 1em;;
+        
+    }
+    .footer_details{
+        margin:0;
+    }
+    footer .links{
+        display: none;
+    }
+    footer .sem_links{
+        display: none;
+    }
 }
 

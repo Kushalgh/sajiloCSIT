@@ -6,12 +6,11 @@
 
 /* The headers on flex */
 header{
-    background-color: hsl(210, 78%, 86%,0.3);
     display: flex;
     font-size: 1.2em;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 1em;
+    margin:0.5em 0.7em;
 }
 
 header ol{
@@ -58,10 +57,6 @@ header h3, .footer_details h3{
   
 }
 
-.logo_image{
-    display: none;
-}
-
 /* CSS for the input field placeholder. */
 ::placeholder{
     font-family: inherit;
@@ -72,10 +67,9 @@ header h3, .footer_details h3{
 
 /* ------Footer ------- */
 footer{
-    background-color: hsl(210, 78%, 86%,0.3);
     display: grid;
     gap:2em;
-    grid-template-columns: 2fr 1fr 1fr 1.3fr;
+    grid-template-columns:2fr 1fr 1fr 1.3fr;
     margin-bottom: 0;
     padding:0.5em 0.2em;
     place-content: center;
@@ -158,59 +152,12 @@ footer h3{
 
 /* Copyright Button CSS */
 .copyright{
-    background-color: hsl(210, 78%, 86%);
+    background-color: hsl(210, 78%, 86%,0.5);
     display: block;
     font-size: 0.9em;
     font-weight: bold;
     margin:0em 0;
     padding:0.5em;
     text-align: center;
-}
-
-
-
-
-
-/* FOr mobile devices  */
-@media screen and (max-width: 600px) {
-
-    /* Header */
-    header nav, .header_search_bar, header h3{
-        display: none;
-    } 
-    header{
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        width: fit-content;
-    }
-   
-    .logo_image{
-        display: block;
-        color:red;
-        
-    }
-    .logo_image img{
-        width: 40%;
-    }
-
-
-    
-
-    /* Footer */
-    footer{
-        grid-template-columns: 1fr;
-        padding: 1em;;
-        
-    }
-    .footer_details{
-        margin:0;
-    }
-    footer .links{
-        display: none;
-    }
-    footer .sem_links{
-        display: none;
-    }
 }
 

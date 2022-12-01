@@ -170,6 +170,7 @@ footer h3{
 
 
 
+
 /* FOr mobile devices  */
 @media screen and (max-width: 600px) {
 
@@ -212,3 +213,4 @@ footer h3{
         display: none;
     }
 }
+

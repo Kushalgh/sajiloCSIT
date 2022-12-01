@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./header_footer.css">
+    <style>
+       
+       *{
+        font-family: Droid sans-serif;
+       }
+
+        .first-sem-topics{
+          margin-top: 5rem;
+          height: 380px;
+          background-image: url("sajiloCSIT/Resources/images/background3.jpg");
+          display: flex;
+          justify-content: space-around;
+        }
+
+        .display-syllabus{
+          background-image: url("./sajiloCSIT/Resources/images/Artboard\ 1.jpg");
+          color: #022B3A;
+          font-size:small;
+          font-weight: 900;
+          width:80%;
+          object-fit: cover;
+          margin: 5rem;
+        }
+
+        .semester, .syllabus{
+          color: #1F7A8C;
+;
+        }
+
+        /* .display-syllabus{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          width:100%;
+          height: 516px;
+          text-align: center;
+          vertical-align: middle;
+        } */
+
+        .first{
+          color: #022B3A;
+        }
+
+        .first-sem{
+          font-size: 64px;
+          font-weight: 700;
+        }
+
+        .sub-c-programming,.sub-code-101,.syllabus{
+          font-size: 32px;
+          font-weight: 400;
+          margin: 10px;
+        }
+
+        .sub-code-101>b,.syllabus>b{
+            font-weight: 700;       
+        }
+
+        .research>img{
+          width: 314px;
+          height: 197px;
+        }
+    </style>
+  </head>
+  <>
+
+    <header>
+      <!-- Display the title of the page -->
+      <h3>
+          sajiloIT
+      </h3>
+
+      <!-- Navigation Bar -->
+      <nav>
+          <ol>
+              <li><a href="">Home</a></li>
+              <li><a href="">Notes</a></li>
+              <li><a href="">Syllabus</a></li>
+              <li><a href="">About</a></li>
+          </ol>
+      </nav>
+
+      <!-- Search Bar -->
+      <div class="header_search_bar">
+          <input type="text" placeholder="Looking for something">
+          <button>Submit</button>
+      </div>
+  </header>
+<!-- Headings and subject informations -->
+<article>
+    <section class="first-sem-topics">
+      <div>
+        <div class="first-sem"><span class="first">Seventh</span> <span class="semester">Semester</span></div>
+        <div class="sub-c-programming">Subject:Advanced Java Programming</div>
+        <div class="sub-code-101"><span> <b>Subject Code:</b> </span> <span>CSC 403</span></div>
+        <div class="syllabus"> <b>Syllabus</b> </div>
+      </div>
+
+      <div class="research">
+        <img  src="./sajiloCSIT/Resources/svg/research.svg" alt="research" />
+      </div>
+    </section>
+<!-- Display syllabus portion:Here lies all the syllabus which are to be inserted -->
+    <section class="display-syllabus">
+      
+      <h4><em><pre>
+      Course Title	: Advanced Java Programming
+      Credit 	        : 3
+      Course No	: CSC-403
+      Course Nature   : Theory + Lab
+      Full marks      : 60 + 20 + 20
+      Pass marks      : 24 + 8 + 8
+      Year		: Fourth,
+      Semester 	: Seventh
+      </pre>
+      </em></h4>
+      
+      <strong>Course Synopsis</strong>
+      <p style="text-align: justify;line-height: 1.5">
+          A study in Java language techniques beyond the introductory
+          course. Emphasis will include, GUI and event-driven programming, Database
+          Connectivity, Socket Programming, Remote Method Invocation and Servlets and JSP
+          Technology.</p>
+      <br><br>
+      
+      <strong>Goal</strong>
+      <p style="text-align: justify;line-height: 1.5">
+          The purpose of this course is to present the concept of GUI programming and
+          JDBC, Socket programming and remote objects, and JSP Technology. Since software
+          components are best learned by implementation, each student will complete a
+          project independently which will involve the design and implementation three
+          software components.</p>
+      <br><br>
+      
+      
+      <p><strong>Course Contents</strong></p>
+      
+      <table border="1" cellspacing="0" cellpadding="1" width="100%">
+          <tr>
+              <td height="27" width="80" valign="top">
+                  <p style="text-align: justify;"><strong>Contents Of Chapter</strong></p></td>
+          </tr>
+      
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 1: Programming in Java 8HRs.</strong>
+                      <ul>
+                          <li>Introduction to Java: Java Architecture, Advantages of Java, PATH and
+                              CLASSPATH variables, Compiling and Running Java Programs<br/><br>
+                              Class and Object: Creating Classes, Interfaces, Creating Objects, Access
+                              Modifiers, Arrays, Packages, Inheritance<br/><br>
+                              Exception Handling and Threading: Try, Catch, Finally, Throws, Creating
+                              Multithreaded Programs, Thread Life Cycle<br/><br>
+                              File IO: Byte Stream Classes (FilleInputStream and FileOutputStream),
+                              Character
+                              Stream Classes(FileReader and FileWriter), RandomAccessFile Class <br/><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+      
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 2: User Interface Components with Swing 10Hrs.</strong>
+                      <ul>
+                          <li>Swing and MVC Design Patterns: Design Pattern, MVC Pattern, MVC Analysis of
+                              Swing Buttons<br><br>
+                              Layout Management: Border Layout, Grid Layout, Gridbag Layout, Group
+                              Layout, Using No Layout managers, Custom layout Managers<br><br>
+                              Text Input: Text Fields, Password Fields, Text Areas, Scroll Pane, Label and
+                              Labeling Components<br><br>
+                              Choice Components: Check Boxes, Radio Buttons, Borders, Combo Boxes,
+                              Sliders<br><br>
+                              Menus: Menu Building, Icons in Menu Items, Check box and Radio Buttons in
+                              Menu Items, Pop-up Menus, Keyboard Mnemonics and Accelerators, Enabling
+                              and Design menu Items, Toolbars, Tooltips<br><br>
+                              Dialog Boxes: Option Dialogs, Creating Dialogs, Data Exchange, File
+                              Choosers,
+                              Color Choosers<br><br>
+                              Components Organizers: Split Panes, Tabbed Panes, Desktop Panes and
+                              Internal Frames, Cascading and Tiling<br><br>
+                              Advance Swing Components: List, Trees, Tables, Progress Bars
+                              <br><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+      
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 3: Event Handling 4Hrs.</strong>
+                      <ul>
+                          <li>Introduction: Standard Event Handling, Using Delegated Class, Using Action
+                              Commands, Listener Interfaces, Adapter Classes<br><br>
+                              Handling Events: Action Events, Key Events, Focus Events, Window Event,
+                              Mouse
+                              Event, Item Events<br><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+      
+      
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 4: Database Connectivity 4Hrs.</strong>
+                      <ul>
+                          <li>
+                              Design of JDBC: Driver Types, Typical Uses of JDBC<br><br>
+                              JDBC Configuration: Database URLS, Driver JAR Files, Starting Database,
+                              Registering Driver class, Connecting to the database<br><br>
+                              Executing SQL Statements: Managing Connections, Statements, Result Set,
+                              SQL Exceptions, Populating Database<br><br>
+                              Query Execution: Prepared Statements, Reading and Writing LOBs, SQL
+                              Escapes, Multiple Results, Scrollable Result Sets, Updateable Result Sets,
+                              Row Sets and Cached Row Sets, Transactions.
+                              <br><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 5: Network Programming 5Hrs.</strong>
+                      <ul>
+                          <li>Networking Basics: Transmission control Protocol(TCP), User Datagram
+                              Protocol
+                              (UDP), Ports, IP Address Network Classes in JDK<br><br>
+                              Working with URLS: Connecting to URLS, Reading Directly from URLS,
+                              InetAddress Class<br><br>
+                              Sockets: TCP Sockets, UDP Sockets, Serving Multiple Clients, Half Close,
+                              Interruptible Sockets, Sending Email<br><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+      
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 6: Java Beans 3Hrs.</strong>
+                      <ul>
+                          <li>Introduction: Creating, Updating and Reading from JAR Files, Java Beans,
+                              Advantages of Java Beans, Class vs Beans, BDK and Bean Box<br><br>
+                              Java Bean: Creating a Java Bean, Creating a Bean Manifest File, Creating a
+                              Bean JAR File, Using a New Bean, Adding Controls to Beans, Giving a Bean
+                              Properties, Creating Bound Properties, Giving a Bean Methods, Giving a Bean
+                              an Icon<br><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 7: Servlets and Java Server pages 8Hrs.</strong>
+                      <ul>
+                          <li>Servelets: Introduction to Servlets,Life cycle of servlets, Java Servlets
+                              Development Kit, Creating, Compiling and running servlet, The servlet API
+                              ( javax.servlet package), Reading the servlet Parameters, Reading
+                              Initialization parameter, The javax.servlet.http.Package, Handling HTTP
+                              Request and
+                              Response (GET / POST Request), Using Cookies, Session Tracking <br><br>
+                              Java Server Pages: Advantage of JSP technology (Comparision with
+                              ASP/ Servlet), JSP Architecture, JSP Access Model, JSP Syntax Basic
+                              (Directions,Declarations, Expression, Scriplets, Comments), JSP Implicit
+                              Object, Object
+                              Scope, Synchronization Issue, Exception Handling, Session Management,
+                              Creating and Processing Forms.<br><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+      
+          <tr>
+              <td height="116" valign="top">
+                  <div style="text-align:justify; padding:8px 0 0 4px;">
+                      <strong>Unit 8: RMI and CORBA 3Hrs.</strong>
+                      <ul>
+                          <li>Remote Method Invocation: Introduction of RMI, Architecture of RMI, Remote
+                              Objects, Creating and Executing RMI Applications<br><br>
+                              CORBA: Introduction to CORBA, Architecture of CORBA, Functioning of CORBA
+                              Applications, CORBA Services<br><br>
+                          </li>
+                      </ul>
+                  </div>
+              </td>
+          </tr>
+      
+      
+      </table>
+      
+      <p style="text-align: justify;line-height: 1.5;">
+          <strong> Laboratory Projects:</strong><br><br>
+          Student should design at least two Projects. Desktop Application (Address Book,
+          Library system etc.), Simple network Application (e.g. Chatting Application) or Simple
+          Web Applications (online banking Application, Online Music Application, etc.)</p>
+      
+      
+      <strong>Reference Books: </strong>
+      <ol>
+          <li>Cay Horstmann and Grazy Cornell, Core Java Volume I-Fundamentals, Eighth Edition<br><br></li>
+          <li>Cay Horstmann and Grazy Cornell, Core Java Volume II-Advance Features, Eighth Edition<br><br></li>
+          <li>Steven Holzner, Java 2 Pagramming-AWT, Swing, XML and Java Beans Black Book, Dreamtech Press<br><br></li>
+          <li>Pallvi Jain and Shadab Siddiqui, J2EE Professional Projects, Premier Press<br><br></li>
+      </ol>
+      
+      <strong>Prerequisite:</strong>Any One Course in OOP<br><br>
+</section></article>  
+
+     
+  
+      <!------------ The footer of the page ------------->
+      <footer>
+        <!-- The first section which display the details -->
+        <section class="footer_details">
+            <h3>
+                sajiloIT
+            </h3>
+            <p>
+                Sajilo CSIT was created while learning Web Technology in 5th semester of the CSIT course by the students of College of Applied Business (CAB) which is located at Gangahity, Chabahil.
+            </p>
+        </section>
+  
+        <!-- The links to the semester section -->
+        <section class="sem_links">
+            <h3>Semester</h3>
+            <p><a href="">First Semester</a></p>
+            <p><a href="">Second Semester</a></p>
+            <p><a href="">Third Semester</a></p>
+            <p><a href="">Fourth Semester</a></p>
+            <p><a href="">Fifth Semester</a></p>
+            <p><a href="">Sixth Semester</a></p>
+            <p><a href="">Seventh Semester</a></p>
+            <p><a href="">Eighth Semester</a></p>
+        </section>
+  
+        <!-- Link Section -->
+        <section class="links">
+            <h3>Links</h3>
+            <p><a href="">About Us</a></p>
+            <p><a href="">About CSIT</a></p>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Terms and Conditions</a></p>
+        </section>
+  
+        <!-- The contact forum -->
+        <section class="contact_forum">
+            <h3>Contact US</h3>
+  
+            <!-- Name -->
+            <label for="Name">Full Name</label>
+            <input type="text">
+  
+            <!-- Email -->
+            <label for="">E-mail</label>
+            <input type="text">
+  
+            <!-- Subject -->
+            <label for="">Subject</label>
+            <input type="text">
+  
+            <!-- Message -->
+            <label for="" >Message</label>
+            <input type="text" class="message_box">
+  
+            <!-- Submit BUtton -->
+            <button>Sumbit</button>
+  
+        </section>
+       
+    </footer>
+     <!-- Copyright section -->
+     <div class="copyright"">
+        <p>Copyright@2022 | sajiloIT | All Rights Reserved</p>
+    </div>
+    </body>
+  </html>
+  

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./header_footer.css">
+    <style>
+       
+       *{
+        font-family: Droid sans-serif;
+       }
+
+        .first-sem-topics{
+          margin-top: 5rem;
+          height: 380px;
+          background-image: url("sajiloCSIT/Resources/images/background3.jpg");
+          display: flex;
+          justify-content: space-around;
+        }
+
+        .display-syllabus{
+          background-image: url("./sajiloCSIT/Resources/images/Artboard\ 1.jpg");
+          color: #022B3A;
+          font-size:small;
+          font-weight: 900;
+          width:80%;
+          object-fit: cover;
+          margin: 5rem;
+        }
+
+        .semester, .syllabus{
+          color: #1F7A8C;
+;
+        }
+
+        /* .display-syllabus{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          width:100%;
+          height: 516px;
+          text-align: center;
+          vertical-align: middle;
+        } */
+
+        .first{
+          color: #022B3A;
+        }
+
+        .first-sem{
+          font-size: 64px;
+          font-weight: 700;
+        }
+
+        .sub-c-programming,.sub-code-101,.syllabus{
+          font-size: 32px;
+          font-weight: 400;
+          margin: 10px;
+        }
+
+        .sub-code-101>b,.syllabus>b{
+            font-weight: 700;       
+        }
+
+        .research>img{
+          width: 314px;
+          height: 197px;
+        }
+    </style>
+  </head>
+
+    <header>
+      <!-- Display the title of the page -->
+      <h3>
+          sajiloIT
+      </h3>
+
+      <!-- Navigation Bar -->
+      <nav>
+          <ol>
+              <li><a href="">Home</a></li>
+              <li><a href="">Notes</a></li>
+              <li><a href="">Syllabus</a></li>
+              <li><a href="">About</a></li>
+          </ol>
+      </nav>
+
+      <!-- Search Bar -->
+      <div class="header_search_bar">
+          <input type="text" placeholder="Looking for something">
+          <button>Submit</button>
+      </div>
+  </header>
+<!-- Headings and subject informations -->
+    <article>
+      <section class="first-sem-topics">
+        <div>
+          <div class="first-sem"><span class="first">Seventh</span> <span class="semester">Semester</span></div>
+          <div class="sub-c-programming">Subject:Advanced Database Management System</div>
+          <div class="sub-code-101"><span> <b>Subject Code:</b> </span> <span>CSC 401</span></div>
+          <div class="syllabus"> <b>Syllabus</b> </div>
+        </div>
+
+        <div class="research">
+          <img  src="./sajiloCSIT/Resources/svg/research.svg" alt="research" />
+        </div>
+      </section>
+<!-- Display syllabus portion:Here lies all the syllabus which are to be inserted -->
+      <section class="display-syllabus">
+      
+<h4><em><pre>
+Course Title	:Advanced Database Management System
+Credit 	        : 3
+Course No	: CSC-401
+Course Nature   : Theory + Lab
+Full marks      : 60 + 20 + 20
+Pass marks      : 24 + 8 + 8
+Year		: Fourth,
+Semester 	: Seventh
+</pre>
+</em></h4>
+
+<strong>Course Synopsis</strong>
+<p style="text-align: justify;line-height: 1.5">
+    To study the concept of advanced database techniques.</p>
+<br>
+
+<strong>Goal</strong>
+<p style="text-align: justify;line-height: 1.5">
+    To study the further advanced database techniques beyond the fundamental
+    database techniques which were covered in the sophomore year (fourth semester)
+    BSc. CSIT course, and thus to acquaint the students with some relatively advanced
+    issues. At the end of the course students should be able to: critically assess new
+    developments in database technology, interpret and explain the impact of emerging
+    database standards. Evaluate the contribution of database theory to practical
+    implementation of database management systems.</p>
+<br>
+
+<p><strong>Course Contents</strong></p>
+
+<table border="1" cellspacing="0" cellpadding="1" width="100%">
+    <tr>
+        <td height="27" width="80" valign="top">
+            <p style="text-align: justify;"><strong>Contents Of Chapter</strong></p></td>
+    </tr>
+
+    <tr>
+        <td height="116" valign="top">
+            <div style="text-align:justify; padding:8px 0 0 4px;">
+                <strong>Unit 1: The Relational Model of Data and RDBMS Implementation Techniques 5 Hrs. </strong>
+                <ul>
+                    <li>
+                        Theoretical concepts, Relational model conformity and Integrity, Advanced
+                        SQL
+                        programming, Query optimization, Concurrency control and Transaction
+                        management, Database performance tuning, Distributed relational systems and
+                        Data Replication, Security considerations. <br/><br>
+                    </li>
+                </ul>
+                <br><br>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td height="116" valign="top">
+            <div style="text-align:justify; padding:8px 0 0 4px;">
+                <strong>Unit 2: The extended Entity Relationship Model and Object Model 6
+                    Hrs. </strong>
+                <ul>
+                    <li>The ER model revisited, Motivation for complex data types, User defined
+                        abstract data
+                        types and structured types, Subclasses, Super classes, Inheritance,
+                        Specialization and
+                        Generalization, Constraints and Characteristics of specialization and
+                        Generalization,
+                        Relationship types of degree higher than two, Relational database design by
+                        EER-to- relational mapping, basic concepts on UML.
+                        <br><br>
+                    </li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td height="116" valign="top">
+            <div style="text-align:justify; padding:8px 0 0 4px;">
+                <strong>Unit 3: Emerging Database Management System Technologies 18 Hrs.</strong>
+                <ul>
+                    <li>Object Oriented Database concepts: object identity, structure, and type
+                        constructors; encapsulation of operations, methods, and persistence; type
+                        and class
+                        hierarchies and inheritance; structures and unstructured complex objects and
+                        type
+                        extensibility; polymorphism, multiple inheritance and selective inheritance,
+                        versions
+                        and configurations;
+                        <br><br>
+                        Object Relational Database concepts: overview of SQL and its
+                        object-relational
+                        features (the SQL standard and its components, object-relational support in
+                        SQL-99);
+                        evolution and current trends of database technology (with respect to the
+                        features of
+                        the Informix Universal Server and Oracle8); implementation and related
+                        issues for
+                        extended type systems; the nested relational model;<br><br>
+
+                        Active database concepts: Generalized model for active databases and oracle
+                        Triggers; design and implement issues for active databases potential
+                        applications for
+                        active databases;<br><br>
+
+                        Temporal database concepts: Time representation, calendars, and time
+                        dimensions;
+                        incorporating time in relational databases using tuple versioning,
+                        incorporating time
+                        in object-oriented databases using attribute versioning, time series
+                        data;<br><br>
+                        Multimedia Databases: The nature of multimedia data and applications;
+                        spatial
+                        database concepts and architecture, introduction to multimedia database
+                        concepts;<br><br>
+                        Deductive databases and Query processing: Prolog/Datalog notations, clausal
+                        form
+                        and horn clauses; interpretations of rules;<br><br>
+                        Mobile Databases: Mobile computing architecture, characteristics of mobile
+                        environments, data management issues; Geographic Information Systems: GIS
+                        applications, data management requirements of GIS, specific GIS data
+                        operations.<br><br>
+                    </li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td height="116" valign="top">
+            <div style="text-align:justify; padding:8px 0 0 4px;">
+                <strong>Unit 4: New Database Applications and Environments 8 Hrs.</strong>
+                <ul>
+                    <li>Data Mining: Overview of data mining technology (associated rules,
+                        classification,
+                        clustering), applications of data mining; Data Warehousing: Overview of data
+                        warehousing, typical functionality of a data warehouse;
+                        <br><br>
+                    </li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td height="116" valign="top">
+            <div style="text-align:justify; padding:8px 0 0 4px;">
+                <strong>Unit 5: Database Related Standards 8 Hrs.</strong>
+                <ul>
+                    <li>SQL standards, SQL 1999, SQL 2003, Object Data Management Group (ODMG)
+                        version
+                        3.0 standards (ODL, OQL), Standards for interoperability and integration
+                        e.g. Web
+                        Services, SOAP, XML related specifications, e.g. XML Documents, DTD, XML
+                        Schema,
+                        X-Query, X- Path.
+                        <br><br>
+                    </li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<p style="text-align: justify;line-height: 1.5;">
+    <strong> Laboratory Projects:</strong><br><br>
+    The course involves a mini project using any one of the popular
+    Commercial Object-Oriented DBMS software such as Oracle, MS SQL Server etc.,
+    along with any MVC software development framework.</p>
+
+
+<strong>Text / Reference Books: </strong>
+<ol>
+    <li>Active Server Pages 3, a Russell Jones, BPB Publications, New Delhi, 2003.<br><br>
+    </li>
+</ol>
+
+<strong>Prerequisite:</strong><br>
+Be familiar with at least one OO Programming language such as .Net or
+C++ or Java, Fundamentals of DBMS, SQL.<br><br>
+
+<strong>Reference Books:</strong>
+<ol>
+    <li>Elmasri and Navathe, Fundamentals of Database Systems, Pearson Education<br></li>
+    <li>Raghu Ramakrishnan, Johannes Gehrke, Database Management Systems,
+        McGraw-Hill<br></li>
+    <li>Korth, Silberchatz, Sudarshan, Database Systems, Design, Implementation and
+        Management, Thomson Learning<br></li>
+    <li>C.J. Date & Longman, Introduction to Database Systems, Pearson Education<br></li>
+</ol>
+
+<p style="text-align: justify;line-height: 1.5;">
+<strong>Computer Usage:</strong><br>
+Windows or Linux based PC or workstation, Commercial OODBMS
+software package and MVC software development framework installed at the server.<br><br>
+</p>
+
+<strong>Category Content: </strong><br><br>
+Science Aspects: 60 % <br><br>
+and Design Aspects: 40 %<br><br>
+
+      </section>
+    </article>
+
+    <!------------ The footer of the page ------------->
+    <footer>
+        <!-- The first section which display the details -->
+        <section class="footer_details">
+            <h3>
+                sajiloIT
+            </h3>
+            <p>
+                Sajilo CSIT was created while learning Web Technology in 5th semester of the CSIT course by the students of College of Applied Business (CAB) which is located at Gangahity, Chabahil.
+            </p>
+        </section>
+  
+        <!-- The links to the semester section -->
+        <section class="sem_links">
+            <h3>Semester</h3>
+            <p><a href="">First Semester</a></p>
+            <p><a href="">Second Semester</a></p>
+            <p><a href="">Third Semester</a></p>
+            <p><a href="">Fourth Semester</a></p>
+            <p><a href="">Fifth Semester</a></p>
+            <p><a href="">Sixth Semester</a></p>
+            <p><a href="">Seventh Semester</a></p>
+            <p><a href="">Eighth Semester</a></p>
+        </section>
+  
+        <!-- Link Section -->
+        <section class="links">
+            <h3>Links</h3>
+            <p><a href="">About Us</a></p>
+            <p><a href="">About CSIT</a></p>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Terms and Conditions</a></p>
+        </section>
+  
+        <!-- The contact forum -->
+        <section class="contact_forum">
+            <h3>Contact US</h3>
+  
+            <!-- Name -->
+            <label for="Name">Full Name</label>
+            <input type="text">
+  
+            <!-- Email -->
+            <label for="">E-mail</label>
+            <input type="text">
+  
+            <!-- Subject -->
+            <label for="">Subject</label>
+            <input type="text">
+  
+            <!-- Message -->
+            <label for="" >Message</label>
+            <input type="text" class="message_box">
+  
+            <!-- Submit BUtton -->
+            <button>Sumbit</button>
+  
+        </section>
+       
+    </footer>
+     <!-- Copyright section -->
+     <div class="copyright"">
+        <p>Copyright@2022 | sajiloIT | All Rights Reserved</p>
+    </div>
+    </body>
+  </html>
+  

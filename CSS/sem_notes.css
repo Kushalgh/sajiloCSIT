@@ -167,3 +167,37 @@ h1, h2, h3,h4, h5, h6{
 }
 
 
+
+
+/* FOr mobile devices  */
+@media screen and (max-width: 600px) {
+    .topbar{
+        grid-template-columns: 1fr;
+        grid-template-areas: none;
+    }
+    .topbar img{
+        display: none;
+    };
+
+    .main_menu{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "sb sb mn mn mn mn sb1 sb1";
+    }
+    .sidebar{
+        display: none;
+    }
+
+    .notes_menu{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "hd"
+        "bd";
+        justify-content: center;
+        align-items: center;
+        margin-left: 2.5em;
+        border: none;
+        box-shadow: none;
+    }
+
+}

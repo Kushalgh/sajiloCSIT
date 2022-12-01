@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./header_footer.css">
+    <style>
+       
+       *{
+        font-family: Droid sans-serif;
+       }
+
+        .first-sem-topics{
+          margin-top: 5rem;
+          height: 380px;
+          background-image: url("sajiloCSIT/Resources/images/background3.jpg");
+          display: flex;
+          justify-content: space-around;
+        }
+
+        .display-syllabus{
+          background-image: url("./sajiloCSIT/Resources/images/Artboard\ 1.jpg");
+          color: #022B3A;
+          font-size:small;
+          font-weight: 900;
+          width:80%;
+          object-fit: cover;
+          margin: 5rem;
+        }
+
+        .semester, .syllabus{
+          color: #1F7A8C;
+;
+        }
+
+        /* .display-syllabus{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          width:100%;
+          height: 516px;
+          text-align: center;
+          vertical-align: middle;
+        } */
+
+        .first{
+          color: #022B3A;
+        }
+
+        .first-sem{
+          font-size: 64px;
+          font-weight: 700;
+        }
+
+        .sub-c-programming,.sub-code-101,.syllabus{
+          font-size: 32px;
+          font-weight: 400;
+          margin: 10px;
+        }
+
+        .sub-code-101>b,.syllabus>b{
+            font-weight: 700;       
+        }
+
+        .research>img{
+          width: 314px;
+          height: 197px;
+        }
+    </style>
+  </head>
+
+    <header>
+      <!-- Display the title of the page -->
+      <h3>
+          sajiloIT
+      </h3>
+
+      <!-- Navigation Bar -->
+      <nav>
+          <ol>
+              <li><a href="">Home</a></li>
+              <li><a href="">Notes</a></li>
+              <li><a href="">Syllabus</a></li>
+              <li><a href="">About</a></li>
+          </ol>
+      </nav>
+
+      <!-- Search Bar -->
+      <div class="header_search_bar">
+          <input type="text" placeholder="Looking for something">
+          <button>Submit</button>
+      </div>
+  </header>
+<!-- Headings and subject informations -->
+          
+<article>
+    <section class="first-sem-topics">
+      <div>
+        <div class="first-sem"><span class="first">Seventh</span> <span class="semester">Semester</span></div>
+        <div class="sub-c-programming">Subject:Information Retrieval</div>
+        <div class="sub-code-101"><span> <b>Subject Code:</b> </span> <span>CSC 405</span></div>
+        <div class="syllabus"> <b>Syllabus</b> </div>
+      </div>
+  
+      <div class="research">
+        <img  src="./sajiloCSIT/Resources/svg/research.svg" alt="research" />
+      </div>
+    </section>
+  <!-- Display syllabus portion:Here lies all the syllabus which are to be inserted -->
+    <section class="display-syllabus">
+  <h4><em><pre>
+  Course Title	:Information Retrieval
+  Credit 	        : 3
+  Course No	: CSC-405
+  Course Nature   : Theory + Lab
+  Full marks      : 60 + 20 + 20
+  Pass marks      : 24 + 8 + 8
+  Year		: Fourth,
+  Semester 	: Seventh
+  </pre>
+  </em></h4>
+  
+  <strong>Course Synopsis</strong>
+  <p style="text-align: justify;line-height: 1.5">
+      Advanced aspects of Information Retrieval and Search Engine</p>
+  <br><br>
+  
+  <strong>Goal</strong>
+  <p style="text-align: justify;line-height: 1.5">
+      To study advance aspects of information retrieval and working principle of search engine,
+      encompassing the principles, research results and commercial application of the current
+      technologies.</p>
+  <br><br>
+  
+  
+  <p><strong>Course Contents</strong></p>
+  
+  <table border="1" cellspacing="0" cellpadding="1" width="100%">
+      <tr>
+          <td height="27" width="80" valign="top">
+              <p style="text-align: justify;"><strong>Contents Of Chapter</strong></p></td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 1 Introduction: 2 Hrs. </strong>
+                  <ul>
+                      <li>
+                          Introduction, History of Information Retrieval, The retrieval process, Block
+                          diagram
+                          and architecture
+                          of IR System, Web search and IR, Areas and role of AI for IR
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 2. Basic IR Models: 4 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Introduction, Taxonomy of information retrieval models, Document retrieval
+                          and
+                          ranking, A formal
+                          characterization of IR models, Boolean retrieval model, Vector-space
+                          retrieval
+                          model, probabilistic
+                          model, Text-similarity metrics: TF-IDF (term frequency/inverse document
+                          frequency)
+                          weighting and
+                          cosine similarity.<br><br>
+                      </li>
+                  </ul>
+              </div>
+          </td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 3. Basic Tokenizing, Indexing, and Implementation of Vector-Space
+                      Retrieval: 4 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Simple tokenizing, Word tokenization, Text Normalization, Stop-word removal,
+                          Word
+                          Stemming
+                          (Porter Algorithm), Case folding, Lemmatization, Inverted indices (Indexing
+                          architecture), Efficient
+                          processing with sparse vectors, Sentence segmentation and Decision Trees
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 4. Experimental Evaluation of IR: 4 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Relevance and Retrieval, performance metrics, Basic Measures of text
+                          retrieval
+                          (Recall, Precision and
+                          F-measure)
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 5. Query Operations and Languages: 3 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Relevance feedback and pseudo relevance feedback, Query
+                          expansion/reformulation
+                          (with a thesaurus
+                          or WordNet, Spelling correction like techniques), Query languages
+                          (Single-Word
+                          Queries, Context
+                          Queries, Boolean Queries, Natural Language)
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 6. Text Representation: 3 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Word statistics (Zipf's law), Morphological analysis, Index term selection,
+                          Using
+                          thesauri, Metadata,
+                          Text representation using markup languages (SGML, HTML, XML)
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 7. Search Engine: 6 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Search engines (working principle), Spidering (Structure of a spider, Simple
+                          spidering algorithm,
+                          multithreaded spidering, Bot), Directed spidering(Topic directed, Link
+                          directed)
+                          ,Crawlers (Basic
+                          crawler architecture), Link analysis (e.g. hubs and authorities, Page
+                          ranking,
+                          Google Page Rank),
+                          shopping agents
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 8. Text Categorization and Clustering: 6 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Categorization algorithms (Rocchio; naive Bayes; decision trees; and nearest
+                          neighbor), Clustering
+                          algorithms (agglomerative clustering; k-means; expectation maximization
+                          (EM))
+                          ,Applications to
+                          information filtering; organization
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 9. Recommender Systems: 3 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Personalization, Collaborative filtering recommendation, Content-based
+                          recommendation
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 10. Information Extraction and Integration: 3 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Information extraction and applications, Extracting data from text,
+                          Evaluating IE
+                          Accuracy, XML and
+                          Information Extraction, Semantic web (purpose, Relation to hypertext page),
+                          Collecting and
+                          integrating specialized information on the web.
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 11. Advanced IR Models with indexing and searching text: 4
+                      Hrs.</strong>
+                  <ul>
+                      <li>
+                          Probabilistic models, Generalized Vector Space Model, Latent Semantic
+                          Indexing
+                          (LSI), Efficient
+                          string searching, Pattern matching
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+      <tr>
+          <td height="116" valign="top">
+              <div style="text-align:justify; padding:8px 0 0 4px;">
+                  <strong>Unit 12. Multimedia IR 3 Hrs.</strong>
+                  <ul>
+                      <li>
+                          Introduction, multimedia data support in commercial DBMSs, Query languages,
+                          Trends
+                          and research
+                          issues
+                      </li>
+                  </ul>
+                  <br><br>
+              </div>
+          </td>
+      </tr>
+  
+  
+  </table>
+  
+  <p style="text-align: justify;line-height: 1.5;">
+      <strong> Laboratory Projects:</strong><br><br>
+      The laboratory should contain all the features mentioned in a course</p>
+  
+  <strong>Samples</strong>
+  <p style="text-align: justify;line-height: 1.5;">
+      1. Program to demonstrate the Boolean Retrieval Model and Vector Space Model<br>
+      2. Program to find the similarity between documents<br>
+      3. Tokenize the words of large documents according to type and token.<br>
+      4. Segment the documents according to sentences<br>
+      5. Implement Porter stemmer<br>
+      6. Try to build a stemmer for Nepali language<br>
+      7. Build a spider that tracks only the link of nepali documents<br>
+      8. Group the online news onto different categorize like sports, entertainment, politics<br>
+      9. Build a recommender system for online music store<br>
+  </p>
+  <strong>Reference Books: </strong>
+  <ol>
+      <li>Modern Information Retrieval, Ricardo Baeza-Yates, Berthier Ribeiro-Neto.<br><br></li>
+      <li>Information Retrieval; Data Structures & Algorithms: Bill Frakes<br><br></li>
+  </ol>
+  
+  <strong>Assignment: </strong>
+  Assignment should be given from the throughout the semester.<br><br>
+  
+  <strong>Computer Usage: No specific.<br><br></strong>
+  
+  <strong>Prerequisite: </strong>
+  Server side programming language like PHP, JSP, ASP.Net (Any One) and with good concept on any
+  programming languages<br><br>
+  
+  <strong>Category Content: </strong>
+  Science Aspect: 25%<br>
+  Design Aspect: 75% <br><br>
+  
+  
+      </section></article>
+
+     
+  
+      <!------------ The footer of the page ------------->
+      <footer>
+        <!-- The first section which display the details -->
+        <section class="footer_details">
+            <h3>
+                sajiloIT
+            </h3>
+            <p>
+                Sajilo CSIT was created while learning Web Technology in 5th semester of the CSIT course by the students of College of Applied Business (CAB) which is located at Gangahity, Chabahil.
+            </p>
+        </section>
+  
+        <!-- The links to the semester section -->
+        <section class="sem_links">
+            <h3>Semester</h3>
+            <p><a href="">First Semester</a></p>
+            <p><a href="">Second Semester</a></p>
+            <p><a href="">Third Semester</a></p>
+            <p><a href="">Fourth Semester</a></p>
+            <p><a href="">Fifth Semester</a></p>
+            <p><a href="">Sixth Semester</a></p>
+            <p><a href="">Seventh Semester</a></p>
+            <p><a href="">Eighth Semester</a></p>
+        </section>
+  
+        <!-- Link Section -->
+        <section class="links">
+            <h3>Links</h3>
+            <p><a href="">About Us</a></p>
+            <p><a href="">About CSIT</a></p>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Terms and Conditions</a></p>
+        </section>
+  
+        <!-- The contact forum -->
+        <section class="contact_forum">
+            <h3>Contact US</h3>
+  
+            <!-- Name -->
+            <label for="Name">Full Name</label>
+            <input type="text">
+  
+            <!-- Email -->
+            <label for="">E-mail</label>
+            <input type="text">
+  
+            <!-- Subject -->
+            <label for="">Subject</label>
+            <input type="text">
+  
+            <!-- Message -->
+            <label for="" >Message</label>
+            <input type="text" class="message_box">
+  
+            <!-- Submit BUtton -->
+            <button>Sumbit</button>
+  
+        </section>
+       
+    </footer>
+     <!-- Copyright section -->
+     <div class="copyright"">
+        <p>Copyright@2022 | sajiloIT | All Rights Reserved</p>
+    </div>
+    </body>
+  </html>
+  
